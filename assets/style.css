@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+section{
+    margin-bottom: 40px;
+}
 body{
     background-color: whitesmoke;
 }
@@ -14,6 +17,7 @@ body{
     position: fixed;
     z-index: 100;
     width: 100%;
+    background-color: #fff;
 }
 .navbar .logo a{
     text-decoration: none;
@@ -24,9 +28,7 @@ body{
 }
 
 
-.navbar:hover{
-    background-color: white;
-}
+
 .nav-ul{
     list-style: none;
     display: flex;
