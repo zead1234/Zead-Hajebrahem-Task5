@@ -80,7 +80,6 @@ const formD = `firs name :${fname.value} last name : ${lname.value} email: ${ema
 data.push(formD);
 data.push(next);
 
-console.log(data)
 localStorage.setItem("form",JSON.stringify(data));
 })
 
